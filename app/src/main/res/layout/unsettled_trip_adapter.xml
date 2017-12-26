@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/unsettledTrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#53dedddc">
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/BlacK"/>
+        <TextView android:id="@+id/unddmm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dd/mm"
+            android:layout_weight="0.8"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/Black"
+            android:textSize="15dp"/>
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/BlacK"/>
+        <TextView android:id="@+id/Unroute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Route"
+            android:layout_weight="0.9"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/Black"
+            android:textSize="15dp"/>
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/BlacK"/>
+
+        <TextView android:id="@+id/Unparty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Party"
+            android:layout_weight="0.9"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/Black"
+            android:textSize="15dp"/>
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/BlacK"/>
+        <TextView android:id="@+id/Unqyt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="qyt"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:textColor="@color/Black"
+            android:textSize="15dp"/>
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/BlacK"/>
+        <TextView android:id="@+id/UnCash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cash"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:textColor="@color/Black"
+            android:textSize="15dp"/>
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Black"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/Black"/>
+
+</LinearLayout>
